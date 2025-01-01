@@ -77,3 +77,33 @@ difference = num3 - num4
 print(f"The sum of {num3} and {num4} is {sumofnumber}.")
 print(f"The product of {num3} and {num4} is {product}.")
 print(f"The difference between {num3} and {num4} is {difference}.")
+
+
+'''Exercise 2
+1) Celsius to Fahrenheit 
+2) Simple Interest Calculator
+'''
+
+#Celsius to Fahrenheit 
+celc = float(input("Enter Temprature in Celsius: "))
+
+convo = 9 / 5
+Fahrenheit = celc * (convo)+32
+
+print(f"{celc} is equal to {Fahrenheit}")
+
+fahr = float(input("Enter Temprature in Fahrenheit: "))
+convo = 5/9
+Celsius = (fahr - 32) * convo
+
+print(f"{fahr} is equal to {Celsius}")
+
+# =============
+pa = float(input("Enter Prinple Of Amount: "))
+roi = float(input("Enter Rate of Interest: "))
+tiy = float(input("Enter Times in year: "))
+
+SI = pa * roi * tiy / 100
+total_amount = SI + pa
+
+print(f"Your total amount will be {total_amount} and simple interst will be {SI} ")
